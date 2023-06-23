@@ -1,0 +1,43 @@
+//fonts
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700");
+@import '~sweetalert2/src/variables';
+$mainFont: "Poppins";
+
+// theme colors
+
+$white: #ffffff;
+$black: #000000;
+$background: #fafafa;
+$textColor: #53535f;
+$yckYellow: #ffd400;
+$yckLightGrey: #343639;
+$yckGrey: #2e3033;
+$yckDarkGrey: #2a2c2e;
+$swal2-background:#ffd400;
+$swal2-title-color: $black;
+$swal2-confirm-button-background-color: $black;
+$swal2-warning: $black;
+$swal2-error: $black;
+$swal2-success: $black;
+$swal2-info: $black;
+$swal2-success-border: rgba($swal2-success, .3);
+$scroll-track: #212529;
+$keyboard-border: #dcdcdc;
+
+$btn-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+
+@import '~sweetalert2/src/sweetalert2';
+// Font styles
+
+$default-font-size: 10px;
+
+//  styling vue-select
+$vs-border-width: 1px;
+$vs-border-style: solid;
+$vs-border-radius: 4px;
+$vs-border-color: $yckLightGrey;
+
+// camera
+$fade-fallback: rgba(0, 0, 0, 0.4);
+$fade: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
